@@ -7,7 +7,7 @@ const requireDir = require('require-dir');
 const app = express();
 
 //Middlewares
-app.use(cors()); //allow cross origen access
+app.use(cors()); //allow cross origin access
 app.use(express.json());//Permite que eu envie dados da app no formato de json
 
 //Iniciando o DB
